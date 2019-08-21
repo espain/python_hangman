@@ -6,6 +6,8 @@ triesValid = False
 while triesValid is False:
     print("How many tries would you like to guess the word? Pick a number from 1 to 25.")
     tries = input()
+    # Convert to int and validate number
+    tries = int(tries)
     if tries >= 1 and tries <= 25:
         triesValid = True
         continue
@@ -17,6 +19,8 @@ lengthValid = False
 while lengthValid is False:
     print("How long would you like your word to be? Pick a number from 4 to 16.")
     length = input()
+    # Convert to int to validate number
+    length = int(length)
     if length >= 4 and length <= 16:
         lengthValid = True
         continue
