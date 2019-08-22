@@ -28,3 +28,8 @@ If the word is solved
 Else
     Notify the player of defeat
 Give the player the option to try again
+
+
+#if variable instead of if variable is true; python if boolean vs if boolean = true
+#pieces of program pulled out and call when you need it
+#create array and operator that creates 
